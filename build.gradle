@@ -19,7 +19,7 @@ dependencies {
     compileOnly 'com.mojang:authlib:1.5.21'
 
     // For MiniMessage text formatting.
-    implementation "net.kyori:adventure-api:4.24.0"
+    implementation "net.kyori:adventure-api:5.2.0"
 
     // XMaterial, XSound, ReflectionUtils, ActionBar
     implementation("com.github.cryptomorin:XSeries:13.3.3")
@@ -29,7 +29,7 @@ dependencies {
 }
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 }
 
 // Ensure build depends on shadowJar
